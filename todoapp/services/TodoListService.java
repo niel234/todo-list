@@ -1,6 +1,7 @@
-package services;
 
-import entities.TodoList;
+package todoapp.services;
+
+import todoapp.entities.TodoList;
 
 public interface TodoListService {
     TodoList[] getTodoList();
